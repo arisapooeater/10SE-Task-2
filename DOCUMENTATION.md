@@ -7,6 +7,13 @@ using car listings as inspiration:
 - rank them from most powerful to least powerful in the game mechanics
 - explain why each attribute was chosen + what makes an attribute fair or unfair in gameplay
 
+- price
+- year launched
+- top speed
+- total produced / rarity 
+- curb weight
+- Cool Factor
+
 ## Part B - Class Design
 Design the object-oriented structure of your game
 
@@ -33,6 +40,16 @@ must include
 - at least 2 annotated design decisions
 
 ## Part D - Game Mechanics Design
+2 Player Stratego x Top Trumps Board Game
+
+Cards are oriented facing away from player to identify each players cards
+
+Played on a 6 x 6 grid 
+Game begins with players being handed 10 cards each. They should line the cards on the outer squares of the 6x6 grid on their side of the grid, all facing down toward their opponent. 
+Each round, each player is allowed to move one card orthogonically or diagonally by 1 square, with the knowledge that they cannot have 2 of their own cards on the same square. If two cards occupy the same square, both players must flip their card over and compare the stats of the attribute written on the matched square. The person with the lower stats must then remove their card from the board, and the person with the higher stats keeps their card, but flips it back down. If both players have equal stats, both players must remove their cards. 
+
+The player who remains with cards on the board wins. If both players end up with matching stats on their last cards, the game ends in a draw.
+
 Explain how the game works:
 - how a round is played
 - how attributes are selected
