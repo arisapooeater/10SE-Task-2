@@ -12,6 +12,15 @@
 | Part F | I feel like its self-explanatory that I'll be doing Part F last as its ultimately an analysis into my overall game in realation to its impacts and implications, meaning it would be best to do when I have full understanding and clarity of what my game is like. | A critical analysis into the social, ethical and legal implications of my car comparison game. | 3 hours | 
 
 ## Part A - Data Selection and Game Attributes
+| **Ranking (most --> least powerful)** | **Why was this chosen?** | **Is it fair/unfair and why?** |
+|-|-|-|
+|**1. Top Speed**| Top speed is (in my opinion) the most recognisable aspect of a car and is pretty reliable as it is easy to attain from online car listings and websites. | Top speed is a fair attribute as it is based on a measurable statistic that can be verified easily online. |
+|**2. Price**|  | |
+|**3. Curb Weight**| | |
+|**4. Rarity (aka. total produced)**| | |
+|**5. Year Launched**| | |
+|**6. Cool Factor**| | |
+
 using car listings as inspiration:
 - select 6 attributes for your game(eg. price, km, power)
 - rank them from most powerful to least powerful in the game mechanics
