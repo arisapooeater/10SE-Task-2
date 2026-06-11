@@ -1,6 +1,14 @@
 # Assessment Task 2: Object-Oriented Design Project: Car Comparison Game
 **By Arisa Komatsu**
-
+## Process Planning
+| Steps | Reasoning | Expected Result | Time |
+|-|-|-|-|
+| Part D | | A clear explanation of my game's mechanics, a structure chart representing the game's modules and overall design, and an analysis into the game's balance and potential improvements. | 1 hour | 
+| Part A | | The 6 car attributes that will be on each top trump card, and a comparison/explanation into their strength and fairness. | 1 hour | 
+| Part E | | An annotated | 2 hours | 
+| Part B | | | 1.5 hours | 
+| Part C | | | 2 hours |
+| Part F | | | 3 hours | 
 ## Part A - Data Selection and Game Attributes
 using car listings as inspiration:
 - select 6 attributes for your game(eg. price, km, power)
