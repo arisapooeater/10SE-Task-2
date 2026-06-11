@@ -17,12 +17,12 @@ using car listings as inspiration:
 - rank them from most powerful to least powerful in the game mechanics
 - explain why each attribute was chosen + what makes an attribute fair or unfair in gameplay
 
-- price
-- year launched
-- top speed
-- total produced / rarity 
-- curb weight
-- Cool Factor
+- price - higher is better
+- year launched - older is better 
+- top speed - higher is better
+- total produced / rarity - lower is better
+- curb weight - lower is better
+- Cool Factor - higher is better
 
 ## Part B - Class Design
 Design the object-oriented structure of your game
@@ -50,27 +50,28 @@ must include
 - at least 2 annotated design decisions
 
 ## Part D - Game Mechanics Design
-2 Player Stratego x Top Trumps Board Game
+My car comparison game is, in summary, a Stratego-esque Top Trumps board game. It is a two player game that is played on a 6 x 6 grid, where on each square is an attribute corresponding to the car cards (eg. top speed, cool factor). The game begins with both players being handed 10 cards each, which they should line on the outer squares of the 6x6 grid on their side of the grid. Cards should be oriented facing down towards your opponent as to not confuse player cards. 
 
-Cards are oriented facing away from player to identify each players cards
+Each round, each player is allowed to move one card orthogonically or diagonally by 1 square, with the knowledge that they cannot have 2 of their own cards on the same square. If two cards (both players' cards) occupy the same square, both players must flip their card over and compare the stats of the attribute written on the matched square. The player who wins the round will depend on the attribute:
 
-Played on a 6 x 6 grid 
-Game begins with players being handed 10 cards each. They should line the cards on the outer squares of the 6x6 grid on their side of the grid, all facing down toward their opponent. 
-Each round, each player is allowed to move one card orthogonically or diagonally by 1 square, with the knowledge that they cannot have 2 of their own cards on the same square. If two cards occupy the same square, both players must flip their card over and compare the stats of the attribute written on the matched square. The person with the lower stats must then remove their card from the board, and the person with the higher stats keeps their card, but flips it back down. If both players have equal stats, both players must remove their cards. 
+- **price:** highest wins
+- **year launched:** oldest wins 
+- **top speed:** highest wins
+- **total produced / rarity:** lowest wins
+- **curb weight:** lowest wins
+- **cool factor:** highest wins
 
-The player who remains with cards on the board wins. If both players end up with matching stats on their last cards, the game ends in a draw.
+The losing card is removed from the board, while the winning card remains, flipped face down again. In the instance that both players have equal stats, both cards must be removed from the board. The player who remains with cards on the board wins, and the game ends. If both players end up with matching stats on their last cards, the game concludes in a draw.
 
-Explain how the game works:
-- how a round is played
-- how attributes are selected
-- how winners are determined
-- what happens in a draw
-- how the game ends
+### How is this game fair?
+The game balance is ensured by the random nature of each square's attribute and the attributes of the card you receive. Unlike a typical Top Trumps game, players don't get to have the advantage of choosing attributes to compare, which not only helps create anticipation/tension when flipping the cards, but also contributes to minimising any imbalances caused by this. Additionally, the board is 6 by 6 to ensure that there is an equal amount of squares for each attribute to prevent any advantages for specific attributes.  
 
-must include
-- explanation of game balance
-- identification of at least one unfair advantage and a proposed solution to fix it
-- a modelled structure chart
+However, one possible unfair advantage that may occur in this game is the fact that some specific types of cars, like large heavy duty vans are quite disadvantaged as none of the attributes are specifically favourable, while light luxury cars are quite advantageous cards. On the other hand, I feel having specific cars that are more advantageous as others is important for creating variation in gameplay, however a solution that could help make the game a little more fair is to rule out vans as they are not technically "cars", and to decrease the amount of these advantageous car cards in a deck to make sure any advantageous cards help make the game interesting while not greatly impacting the actual game's results.
+
+### Structure Chart 
+- insert structure chart
+
+![Modelled Structure Chart of GAME](./images/)
 
 ## Part E - Interface and Card Design
 Create
