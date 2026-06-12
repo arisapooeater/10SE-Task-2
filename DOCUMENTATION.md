@@ -15,23 +15,12 @@
 | **Ranking (most --> least powerful)** | **Why was this chosen?** | **Is it fair/unfair and why?** |
 |-|-|-|
 |**1. Top Speed**| Top speed is (in my opinion) the most recognisable aspect of a car and is pretty reliable as it is easy to attain from online car listings and websites. | Top speed is a fair attribute as it is based on a measurable statistic that can be verified easily online. |
-|**2. Price**|  | |
-|**3. Curb Weight**| | |
-|**4. Rarity (aka. total produced)**| | |
-|**5. Year Launched**| | |
-|**6. Cool Factor**| | |
+|**2. Price**| Price is a powerful attribute as it prices widely vary between cars, therefore giving a strong advantage to more expensive cars.  | Similar to top speed, price is a fair attribute as it is also an objective and factual value, although expensive cars like collectibles may create disadvantages for other players. |
+|**3. Curb Weight**|I chose curb weight because it is a unique specification that differs significantly between vehicles, from lightweight sports cars to heavy SUVs and luxury vehicles. This creates a good spread of values for gameplay. | Again, curb weight is a fair attribute as although it is less accessible and harder to find online, it is still a measurable specification. It may be unfair to some lighter cars as just because a car is heavy doesn't mean it's superior to one that's lighter. |
+|**4. Rarity (aka. total produced)**| I chose rarity as it adds an interesting collector aspect to the game. Production numbers can vary from millions of units to only a handful, creating large differences between cards and making the attribute more strategic. | Rarity is a mostly fair attribute as production numbers are factual, fixed digits. However, some rare cars may not be high-performing in other attributes, which can create interesting gameplay. |
+|**5. Year Launched**| I chose year launched because it provides historical variety and allows newer and older vehicles to compete in different ways. It also helps represent how car technology has evolved over time. |It is important to consider that the age of a car is launched doesn't automatically make it a better car, however this attribute helps even out the playing field as to not create huge power imbalances in the game for old luxury cars. |
+|**6. Cool Factor**| I thought cool factor would be a fun element that could bring more surprise into the gameplay. It's probably not the most powerful as it is quite unpredictable, although players may enjoy comparing iconic or visually impressive cars. | Cool factor is quite an unfair attribute as the 'coolness' of a car is very subjective and depending on personal tastes. However, I will ensure to minimise any imbalances by basing the cool factor ratings off majority opinions online and in rating websites/forums. |
 
-using car listings as inspiration:
-- select 6 attributes for your game(eg. price, km, power)
-- rank them from most powerful to least powerful in the game mechanics
-- explain why each attribute was chosen + what makes an attribute fair or unfair in gameplay
-
-- price - higher is better
-- year launched - older is better 
-- top speed - higher is better
-- total produced / rarity - lower is better
-- curb weight - lower is better
-- Cool Factor - higher is better
 
 ## Part B - Class Design
 Design the object-oriented structure of your game
@@ -64,10 +53,10 @@ My car comparison game is, in summary, a Stratego-esque Top Trumps board game. I
 Each round, each player is allowed to move one card orthogonically or diagonally by 1 square, with the knowledge that they cannot have 2 of their own cards on the same square. If two cards (both players' cards) occupy the same square, both players must flip their card over and compare the stats of the attribute written on the matched square. The player who wins the round will depend on the attribute:
 
 - **price:** highest wins
-- **year launched:** oldest wins 
+- **year launched:** newest wins 
 - **top speed:** highest wins
 - **total produced / rarity:** lowest wins
-- **curb weight:** lowest wins
+- **curb weight:** highest wins
 - **cool factor:** highest wins
 
 The losing card is removed from the board, while the winning card remains, flipped face down again. In the instance that both players have equal stats, both cards must be removed from the board. The player who remains with cards on the board wins, and the game ends. If both players end up with matching stats on their last cards, the game concludes in a draw.
