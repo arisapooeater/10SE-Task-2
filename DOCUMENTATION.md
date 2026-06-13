@@ -95,8 +95,10 @@ However, one possible unfair advantage that may occur in this game is the fact t
 
 **Will probably look like the following card image in terms of style (discluding the Top Trumps File text blob):**
 ![Card Design Inspiration](./images/card_inspiration.webp)
+**My design will have different colours for the attributes, so instead of just blue, each attribute will be allocated a colour that corresponds to the board.**
 
-- a basic game interface sketch
+![Basic Game Interface Sketch + Annotations](./images/interface_sketch.png)
+
 
 Must include
 - labels and annotations explaining design choices
