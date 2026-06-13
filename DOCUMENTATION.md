@@ -89,8 +89,13 @@ However, one possible unfair advantage that may occur in this game is the fact t
 ![Modelled Structure Chart of GAME](./images/)
 
 ## Part E - Interface and Card Design
-Create
-- a card design (top trumps style)
+### Basic Card Design (Top Trumps Style)
+![Card Design](./images/card_design.png)
+![Card Design Annotation](./images/card_annotation.png)
+
+**Will probably look like the following card image in terms of style (discluding the Top Trumps File text blob):**
+![Card Design Inspiration](./images/card_inspiration.webp)
+
 - a basic game interface sketch
 
 Must include
