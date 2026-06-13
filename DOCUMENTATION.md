@@ -23,18 +23,35 @@
 
 
 ## Part B - Class Design
-Design the object-oriented structure of your game
+### Car
+The Car class stores all the information and statistics of attributes on a specific car that will be on the cards in the game. 
 
-required classes
-- car
-- card
-- deck
-- player
-- game
+![Car Class Diagram](./images/car_class.jpg)
 
-for each class
-- list attributes, methods
-- describe its role in the system
+### Card
+Represents a playable card on the board, where each contains a car object. This class manages how a card can move into a new position, or when it can be flipped.
+
+![Card Class Diagram](./images/card_class.jpg)
+
+### Deck
+The deck stores all the cards used in the game and distributes them to players at the beginning of a game.
+
+![Deck Class Diagram](./images/deck_class.jpg)
+
+### Player
+This class represents a player and manages the cards they own and place on the board.
+
+![Player Class Diagram](./images/player_class.jpg)
+
+### Game 
+The game class manages the deck, players, cards and board by controlling the overall game flow, turn order, battle states and winning conditions.
+
+![Game Class Diagram](./images/game_class.jpg)
+
+### Board
+The board class stores and manages the attribute squares that make up the board, and can rearrange them for every new game.
+
+![Board Class Diagram](./images/board_class.jpg)
 
 ## Part C - Class Diagram
 Create a UML class diagram including
