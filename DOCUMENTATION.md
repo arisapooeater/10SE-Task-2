@@ -97,9 +97,11 @@ However, one possible unfair advantage that may occur in this game is the fact t
 ![Card Design Inspiration](./images/card_inspiration.webp)
 **My design will have different colours for the attributes, so instead of just blue, each attribute will be allocated a colour that corresponds to the board.**
 
+### Basic Game Interface Sketch
 ![Basic Game Interface Sketch + Annotations](./images/interface_sketch.png)
 
-
+### Storyboard
+![Storyboard](./images/storyboard.png)
 Must include
 - labels and annotations explaining design choices
 - clear layout of information
