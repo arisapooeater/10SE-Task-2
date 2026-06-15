@@ -44,6 +44,11 @@ This class represents a player and manages the cards they own and place on the b
 
 ![Player Class Diagram](./images/player_class.jpg)
 
+### Hand
+The hand class represents the player's hand, essentially the card that the player owns. It manages checking how many cards each player has, and who owns which hand.
+
+![Hand Class Diagram](./images/hand_class.jpg)
+
 ### Game 
 The game class manages the deck, players, cards and board by controlling the overall game flow, turn order, battle states and winning conditions.
 
@@ -55,15 +60,8 @@ The board class stores and manages the attribute squares that make up the board,
 ![Board Class Diagram](./images/board_class.jpg)
 
 ## Part C - Class Diagram
-Create a UML class diagram including
-- all classes
-- attributes and methods
-- relationships (association, aggregation, inheritance if used)
+![UML Class Diagram](./images/UML_diagram.jpg)
 
-must include
-- clear structure
-- correct relationships
-- at least 2 annotated design decisions
 
 ## Part D - Game Mechanics Design
 My car comparison game is, in summary, a Stratego-esque Top Trumps board game. It is a two player game that is played on a 6 x 6 grid, where on each square is an attribute corresponding to the car cards (eg. top speed, cool factor). The game begins with both players being handed 10 cards each, which they should line on the outer squares of the 6x6 grid on their side of the grid. Cards should be oriented facing down towards your opponent as to not confuse player cards. 
