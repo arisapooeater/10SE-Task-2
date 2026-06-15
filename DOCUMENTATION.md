@@ -103,18 +103,19 @@ However, one possible unfair advantage that may occur in this game is the fact t
 
 ### Storyboard
 ![Storyboard](./images/storyboard.png)
-Must include
-- labels and annotations explaining design choices
-- clear layout of information
-- storyboards and/or walk through
 
 ## Part F - Social, Ethical and Legal Implications
 ### 1. Individual Impact
 **How could your game influence user behaviour or decision-making?**
+- might create biases in what cars they thinka re good depending on how they perform in the game
+
 
 **Could it encourage bias (eg. favouring expensive or high-performance cars)?**
+- slightly yes, maybe toward () but i tried to limit this
 
 **What responsibilities do you have as a designer to present fair information?**
+- make sure theres equal chances of winning for all ranges of cars
+- make sure information is from verified sources
 
 ---
 ### 2. Social Impact
@@ -129,6 +130,8 @@ Must include
 **How could your game influence attitudes toward fuel use, emissions, or sustainability?**
 
 **Does your attribute selection promote or ignore environmental considerations?**
+- it omits environemnetal considerations like fuel type stuff 
+
 
 **What changes would you make to encourage more environmentally responsible thinking?**
 
