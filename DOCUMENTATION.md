@@ -42,7 +42,7 @@ The deck stores all the cards used in the game and distributes them to players a
 ### Player
 This class represents a player and manages the cards they own and place on the board.
 
-![Player Class Diagram](./images/player_class.jpg)
+![Player Class Diagram](./images/player_class.jpeg)
 
 ### Hand
 The hand class represents the player's hand, essentially the card that the player owns. It manages checking how many cards each player has, and who owns which hand.
@@ -52,7 +52,7 @@ The hand class represents the player's hand, essentially the card that the playe
 ### Game 
 The game class manages the deck, players, cards and board by controlling the overall game flow, turn order, battle states and winning conditions.
 
-![Game Class Diagram](./images/game_class.jpg)
+![Game Class Diagram](./images/game_class.jpeg)
 
 ### Board
 The board class stores and manages the attribute squares that make up the board, and can rearrange them for every new game.
@@ -128,10 +128,12 @@ However, one possible unfair advantage that may occur in this game is the fact t
 **How could your game influence attitudes toward fuel use, emissions, or sustainability?**
 
 **Does your attribute selection promote or ignore environmental considerations?**
-- it omits environemnetal considerations like fuel type stuff 
+
+My attribute selection does omit environmental considerations by purely comparing cars off superficial or performance-based statistics such as top speed and cool factor.
 
 
 **What changes would you make to encourage more environmentally responsible thinking?**
+ Next time, I would consider putting an attribute like fuel type, where electric cars would get a higher advantage as to raise more awareness on the negative environmental impacts of diesel and petrol cars and encourage players to think more responsibly when buying a car.
 
 ---
 ### 4. Legal Considerations
