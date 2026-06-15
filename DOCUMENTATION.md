@@ -1,21 +1,5 @@
 # Assessment Task 2: Object-Oriented Design Project: Car Comparison Game
 **By Arisa Komatsu**
-<<<<<<< HEAD
-## Process Planning
-| Steps | Reasoning | Expected Result | Time |
-|-|-|-|-|
-| Part D | | A clear explanation of my game's mechanics, a structure chart representing the game's modules and overall design, and an analysis into the game's balance and potential improvements. | 1 hour | 
-| Part A | | The 6 car attributes that will be on each top trump card, and a comparison/explanation into their strength and fairness. | 1 hour | 
-| Part E | | An annotated | 2 hours | 
-| Part B | | | 1.5 hours | 
-| Part C | | | 2 hours |
-| Part F | | | 3 hours | 
-## Part A - Data Selection and Game Attributes
-using car listings as inspiration:
-- select 6 attributes for your game(eg. price, km, power)
-- rank them from most powerful to least powerful in the game mechanics
-- explain why each attribute was chosen + what makes an attribute fair or unfair in gameplay
-=======
 
 ## Process Planning
 | Steps | Reasoning | Expected Result | Time |
@@ -36,7 +20,7 @@ using car listings as inspiration:
 |**4. Rarity (aka. total produced)**| I chose rarity as it adds an interesting collector aspect to the game. Production numbers can vary from millions of units to only a handful, creating large differences between cards and making the attribute more strategic. | Rarity is a mostly fair attribute as production numbers are factual, fixed digits. However, some rare cars may not be high-performing in other attributes, which can create interesting gameplay. |
 |**5. Year Launched**| I chose year launched because it provides historical variety and allows newer and older vehicles to compete in different ways. It also helps represent how car technology has evolved over time. |It is important to consider that the age of a car is launched doesn't automatically make it a better car, however this attribute helps even out the playing field as to not create huge power imbalances in the game for old luxury cars. |
 |**6. Cool Factor**| I thought cool factor would be a fun element that could bring more surprise into the gameplay. It's probably not the most powerful as it is quite unpredictable, although players may enjoy comparing iconic or visually impressive cars. | Cool factor is quite an unfair attribute as the 'coolness' of a car is very subjective and depending on personal tastes. However, I will ensure to minimise any imbalances by basing the cool factor ratings off majority opinions online and in rating websites/forums. |
->>>>>>> 2a64cc6d007d70f985c6040244f2daf89412eebe
+
 
 
 ## Part B - Class Design
