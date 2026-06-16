@@ -68,7 +68,7 @@ My car comparison game is, in summary, a Stratego-esque Top Trumps board game. I
 
 Each round, each player is allowed to move one card orthogonically or diagonally by 1 square, with the knowledge that they cannot have 2 of their own cards on the same square. If two cards (both players' cards) occupy the same square, both players must flip their card over and compare the stats of the attribute written on the matched square. The player who wins the round will depend on the attribute:
 
-- **price:** highest wins
+- **price:** lowest wins
 - **year launched:** newest wins 
 - **top speed:** highest wins
 - **total produced / rarity:** lowest wins
@@ -105,30 +105,33 @@ However, one possible unfair advantage that may occur in this game is the fact t
 ## Part F - Social, Ethical and Legal Implications
 ### 1. Individual Impact
 **How could your game influence user behaviour or decision-making?**
-- might create biases in what cars they thinka re good depending on how they perform in the game
+My game could influence players' perceptions on what makes a "good" car through the rewarding nature of attributes like top speed and rarity during gameplay. This may lead to players associating these characteristics with higher performance during the game with superiority in real life, even if they don't necessarily make a car more practible or suitable for everyday use.
 
 
 **Could it encourage bias (eg. favouring expensive or high-performance cars)?**
-- slightly yes, maybe toward () but i tried to limit this
+The game may encourage some bias towards high-performance or rare cars because these often perform well in attributes like top speed and rarity. However, I attempted to minimise these advantage toward expensive vehicles by making lower prices more favourable, allowing affordable cars to remain competitive in gameplay.
 
 **What responsibilities do you have as a designer to present fair information?**
-- make sure theres equal chances of winning for all ranges of cars
-- make sure information is from verified sources
+As a designer, I must ensure any data and information are from verified sources, with thorough examination of the reliability of the author, site's sources and the organisation's reputability in this field. Furthermore, I would cross-reference any data obtained to confirm its reliability as to minimise inconsistencies and unfair presentation. 
+
 
 ---
 ### 2. Social Impact
 **How might your game reinforce stereotypes or inequalties(eg. wealth, status, access to vehicles)?**
+The game could reinforce the idea that expensive, rare or high-performance vehicles are more desirable than ordinary cars, which may cause an unintentional promotion of the stereotype that wealth and luxury are indicators of success or status.
 
 **Does your system favour certain types of users or cars?**
+I believe some vehicle categories, such as luxury sports car, may be more advantageous as they tend to perform well in attributes like top speed, rarity, and cool factor, while more practical vehicles such as family cars may be favoured less. 
 
 **How could your design be made more inclusive or fair?**
+I believe my design could be more inclusive and fair through a more proper contemplation and selection on the attributes I chose. Through altering the current attributes I've made to things such as safety ratings, fuel efficiency and practicality, it would allow strengths for a wider range of car types and better represent different user needs when using a car in real life.
 
 ---
 ### 3. Environmental Impact
 **How could your game influence attitudes toward fuel use, emissions, or sustainability?**
+My game focuses primarily on performance and accessory-based attributes such as top speed and rarity, which can unintentionally cause players to view high-performance vehicles more positively while overlooking important environmental considerations like fuel efficiency, emissions and the sustainability of the car's technologies. 
 
 **Does your attribute selection promote or ignore environmental considerations?**
-
 My attribute selection does omit environmental considerations by purely comparing cars off superficial or performance-based statistics such as top speed and cool factor.
 
 
@@ -138,7 +141,10 @@ My attribute selection does omit environmental considerations by purely comparin
 ---
 ### 4. Legal Considerations
 **What legal issues could arise from using real-world car data (eg. ownership, copyright, accuracy)?**
+Failing to abide by necessary permission in copy-righted images or data of real-world cars may result in copyright infrigement, leading to the risk of facing licensing fees, as well as damages and legal costs. Furthermore, if inaccurate information is displayed, this could mislead players and can cause trouble with consumer protection regulations like the Australian Consumer Law as it may fall under a form of false advertising.
 
 **What responsibilities do you have when displaying or using data inspired by platforms like carsales.com.au?**
+I have the responsibility of ensuring that any information used is accurate and collected in accordance with the platform's terms of use. Therefore, I would avoid directly copying copyrighted content such as images or logos without permission.
 
 **How would you ensure your system avoids misleading users?**
+I would firstly verify the data I retrieve for my cards through cross-referencing to ensure its reliability, and regulate any statistics regularly if changes are required. Additionally, I would also clearly state that the game is intented for entertainment purposes only rather than for providing purchasing advice, and openly identify attributes like cool factor as opinions.
