@@ -83,9 +83,7 @@ The game balance is ensured by the random nature of each square's attribute and 
 However, one possible unfair advantage that may occur in this game is the fact that some specific types of cars, like large heavy duty vans are quite disadvantaged as none of the attributes are specifically favourable, while light luxury cars are quite advantageous cards. On the other hand, I feel having specific cars that are more advantageous as others is important for creating variation in gameplay, however a solution that could help make the game a little more fair is to rule out vans as they are not technically "cars", and to decrease the amount of these advantageous car cards in a deck to make sure any advantageous cards help make the game interesting while not greatly impacting the actual game's results.
 
 ### Structure Chart 
-- insert structure chart
-
-![Modelled Structure Chart of GAME](./images/)
+![Modelled Structure Chart of GAME](./images/structure_chart.jpg)
 
 ## Part E - Interface and Card Design
 ### Basic Card Design (Top Trumps Style)
