@@ -87,18 +87,17 @@ However, one possible unfair advantage that may occur in this game is the fact t
 
 ## Part E - Interface and Card Design
 ### Basic Card Design (Top Trumps Style)
-![Card Design](./images/card_design.png)
-![Card Design Annotation](./images/card_annotation.png)
 
-**Will probably look like the following card image in terms of style (discluding the Top Trumps File text blob):**
-![Card Design Inspiration](./images/card_inspiration.webp)
-**My design will have different colours for the attributes, so instead of just blue, each attribute will be allocated a colour that corresponds to the board.**
+<img src="./images/card_design.png" alt="Card Design" width= "600" height= "900">
+<img src="./images/card_annotation.png" alt="Card Design Annotation" width= "600" height= "900">
+<img src="./images/card_inspiration.webp" alt="Card Design Inspiration" width= "800" height= "900">
 
-### Basic Game Interface Sketch
-![Basic Game Interface Sketch + Annotations](./images/interface_sketch.png)
+**Will probably look like the card image to the very right in terms of style (discluding the Top Trumps File text blob). However, my design will have different colours for the attributes, so instead of just blue, each attribute will be allocated a colour that corresponds to the board.**
 
-### Storyboard
-![Storyboard](./images/storyboard.png)
+### Basic Game Interface Sketch and STORYBOARD
+<img src="./images/interface_sketch.png" alt="Basic Game Interface Sketch + Annotations" width= "600" height= "900">
+<img src="./images/storyboard.png" alt="Storyboard" width= "600" height= "900">
+
 
 ## Part F - Social, Ethical and Legal Implications
 ### 1. Individual Impact
