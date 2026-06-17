@@ -27,40 +27,41 @@
 ### Car
 The Car class stores all the information and statistics of attributes on a specific car that will be on the cards in the game. 
 
-![Car Class Diagram](./images/car_class.jpg)
+<img src="./images/car_class.jpeg" alt="Car Class Diagram" width="500" height="450">
+
 
 ### Card
 Represents a playable card on the board, where each contains a car object. This class manages how a card can move into a new position, or when it can be flipped.
 
-![Card Class Diagram](./images/card_class.jpg)
+<img src="./images/card_class.jpeg" alt="Card Class Diagram" width="600" height="450">
 
 ### Deck
 The deck stores all the cards used in the game and distributes them to players at the beginning of a game.
 
-![Deck Class Diagram](./images/deck_class.jpg)
+<img src="./images/deck_class.jpeg" alt="Deck Class Diagram" width="600" height="450">
 
 ### Player
 This class represents a player and manages the cards they own and place on the board.
 
-![Player Class Diagram](./images/player_class.jpeg)
+<img src="./images/player_class.jpeg" alt="Player Class Diagram" width="600" height="450">
 
 ### Hand
 The hand class represents the player's hand, essentially the card that the player owns. It manages checking how many cards each player has, and who owns which hand.
 
-![Hand Class Diagram](./images/hand_class.jpg)
+<img src="./images/hand_class.png" alt="Hand Class Diagram" width="600" height="450">
 
 ### Game 
 The game class manages the deck, players, cards and board by controlling the overall game flow, turn order, battle states and winning conditions.
 
-![Game Class Diagram](./images/game_class.jpeg)
+<img src="./images/game_class.jpeg" alt="Game Class Diagram" width="700" height="450">
 
 ### Board
 The board class stores and manages the attribute squares that make up the board, and can rearrange them for every new game.
 
-![Board Class Diagram](./images/board_class.jpg)
+<img src="./images/board_class.jpeg" alt="Board Class Diagram" width="700" height="450">
 
 ## Part C - Class Diagram
-![UML Class Diagram](./images/UML_diagram.jpg)
+<img src="./images/UML_diagram.jpg" alt="UML Class Diagram" width="600" height="450">
 
 
 ## Part D - Game Mechanics Design
@@ -83,65 +84,77 @@ The game balance is ensured by the random nature of each square's attribute and 
 However, one possible unfair advantage that may occur in this game is the fact that some specific types of cars, like large heavy duty vans are quite disadvantaged as none of the attributes are specifically favourable, while light luxury cars are quite advantageous cards. On the other hand, I feel having specific cars that are more advantageous as others is important for creating variation in gameplay, however a solution that could help make the game a little more fair is to rule out vans as they are not technically "cars", and to decrease the amount of these advantageous car cards in a deck to make sure any advantageous cards help make the game interesting while not greatly impacting the actual game's results.
 
 ### Structure Chart 
-![Modelled Structure Chart of GAME](./images/structure_chart.jpg)
+<img src="./images/structure_chart.jpg" alt="Modelled Structure Chart of GAME" width="500" height="450">
 
 ## Part E - Interface and Card Design
 ### Basic Card Design (Top Trumps Style)
 
-<img src="./images/card_design.png" alt="Card Design" width= "600" height= "900">
-<img src="./images/card_annotation.png" alt="Card Design Annotation" width= "600" height= "900">
-<img src="./images/card_inspiration.webp" alt="Card Design Inspiration" width= "800" height= "900">
+<img src="./images/card_design.png" alt="Card Design" width= "300" height= "450">
+<img src="./images/card_annotation.png" alt="Card Design Annotation" width= "300" height= "450">
+<img src="./images/card_inspiration.webp" alt="Card Design Inspiration" width= "400" height= "450">
 
 **Will probably look like the card image to the very right in terms of style (discluding the Top Trumps File text blob). However, my design will have different colours for the attributes, so instead of just blue, each attribute will be allocated a colour that corresponds to the board.**
 
 ### Basic Game Interface Sketch and STORYBOARD
-<img src="./images/interface_sketch.png" alt="Basic Game Interface Sketch + Annotations" width= "600" height= "900">
-<img src="./images/storyboard.png" alt="Storyboard" width= "600" height= "900">
+<img src="./images/interface_sketch.png" alt="Basic Game Interface Sketch + Annotations" width= "300" height= "450">
+<img src="./images/storyboard.png" alt="Storyboard" width= "300" height= "450">
 
 
 ## Part F - Social, Ethical and Legal Implications
 ### 1. Individual Impact
 **How could your game influence user behaviour or decision-making?**
+
 My game could influence players' perceptions on what makes a "good" car through the rewarding nature of attributes like top speed and rarity during gameplay. This may lead to players associating these characteristics with higher performance during the game with superiority in real life, even if they don't necessarily make a car more practible or suitable for everyday use.
 
 
 **Could it encourage bias (eg. favouring expensive or high-performance cars)?**
+
 The game may encourage some bias towards high-performance or rare cars because these often perform well in attributes like top speed and rarity. However, I attempted to minimise these advantage toward expensive vehicles by making lower prices more favourable, allowing affordable cars to remain competitive in gameplay.
 
 **What responsibilities do you have as a designer to present fair information?**
+
 As a designer, I must ensure any data and information are from verified sources, with thorough examination of the reliability of the author, site's sources and the organisation's reputability in this field. Furthermore, I would cross-reference any data obtained to confirm its reliability as to minimise inconsistencies and unfair presentation. 
 
 
 ---
 ### 2. Social Impact
 **How might your game reinforce stereotypes or inequalties(eg. wealth, status, access to vehicles)?**
+
 The game could reinforce the idea that expensive, rare or high-performance vehicles are more desirable than ordinary cars, which may cause an unintentional promotion of the stereotype that wealth and luxury are indicators of success or status.
 
 **Does your system favour certain types of users or cars?**
+
 I believe some vehicle categories, such as luxury sports car, may be more advantageous as they tend to perform well in attributes like top speed, rarity, and cool factor, while more practical vehicles such as family cars may be favoured less. 
 
 **How could your design be made more inclusive or fair?**
+
 I believe my design could be more inclusive and fair through a more proper contemplation and selection on the attributes I chose. Through altering the current attributes I've made to things such as safety ratings, fuel efficiency and practicality, it would allow strengths for a wider range of car types and better represent different user needs when using a car in real life.
 
 ---
 ### 3. Environmental Impact
 **How could your game influence attitudes toward fuel use, emissions, or sustainability?**
+
 My game focuses primarily on performance and accessory-based attributes such as top speed and rarity, which can unintentionally cause players to view high-performance vehicles more positively while overlooking important environmental considerations like fuel efficiency, emissions and the sustainability of the car's technologies. 
 
 **Does your attribute selection promote or ignore environmental considerations?**
+
 My attribute selection does omit environmental considerations by purely comparing cars off superficial or performance-based statistics such as top speed and cool factor.
 
 
 **What changes would you make to encourage more environmentally responsible thinking?**
+
  Next time, I would consider putting an attribute like fuel type, where electric cars would get a higher advantage as to raise more awareness on the negative environmental impacts of diesel and petrol cars and encourage players to think more responsibly when buying a car.
 
 ---
 ### 4. Legal Considerations
 **What legal issues could arise from using real-world car data (eg. ownership, copyright, accuracy)?**
+
 Failing to abide by necessary permission in copy-righted images or data of real-world cars may result in copyright infrigement, leading to the risk of facing licensing fees, as well as damages and legal costs. Furthermore, if inaccurate information is displayed, this could mislead players and can cause trouble with consumer protection regulations like the Australian Consumer Law as it may fall under a form of false advertising.
 
 **What responsibilities do you have when displaying or using data inspired by platforms like carsales.com.au?**
+
 I have the responsibility of ensuring that any information used is accurate and collected in accordance with the platform's terms of use. Therefore, I would avoid directly copying copyrighted content such as images or logos without permission.
 
 **How would you ensure your system avoids misleading users?**
+
 I would firstly verify the data I retrieve for my cards through cross-referencing to ensure its reliability, and regulate any statistics regularly if changes are required. Additionally, I would also clearly state that the game is intented for entertainment purposes only rather than for providing purchasing advice, and openly identify attributes like cool factor as opinions.
