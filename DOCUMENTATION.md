@@ -25,13 +25,13 @@
 
 ## Part B - Class Design
 ### Car
-The Car class stores all the information and statistics of attributes on a specific car that will be on the cards in the game. 
+The Car class stores the data attributes and behaviours associated with a specific vehicle.
 
 <img src="./images/car_class.jpeg" alt="Car Class Diagram" width="500" height="450">
 
 
 ### Card
-Represents a playable card on the board, where each contains a car object. This class manages how a card can move into a new position, or when it can be flipped.
+Represents a playable card on the board, where each contains a car object. This class manages the state and behaviour of a playable card.
 
 <img src="./images/card_class.jpeg" alt="Card Class Diagram" width="600" height="450">
 
@@ -113,7 +113,7 @@ The game may encourage some bias towards high-performance or rare cars because t
 
 **What responsibilities do you have as a designer to present fair information?**
 
-As a designer, I must ensure any data and information are from verified sources, with thorough examination of the reliability of the author, site's sources and the organisation's reputability in this field. Furthermore, I would cross-reference any data obtained to confirm its reliability as to minimise inconsistencies and unfair presentation. 
+As a designer, I must ensure any data and information are from validated data sources, with thorough examination of the data integrity and reliability of the author, site's sources and the organisation's reputability in this field. Furthermore, I would cross-reference any data obtained to confirm its reliability as to minimise inconsistencies and unfair presentation. 
 
 
 ---
